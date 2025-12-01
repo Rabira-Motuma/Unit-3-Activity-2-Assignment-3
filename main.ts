@@ -2,7 +2,7 @@
  * @author Rabira Motuma
  * @version 1.0.0
  * @date 2025-11-28
- * @fileoverview This calculates the minimum amount of coins used to give change/
+ * @fileoverview This calculates the minimum amount of coins used to give change.
  */
 
 // variables
@@ -16,7 +16,7 @@ let nickels: number;
 let pennies: number;
 
 // input
-centsChangeAsString = prompt("How much cents is the change?") || "0";
+centsChangeAsString = prompt("How much cents is the change? ") || "0";
 
 // process
 centsChangeAsNumber = parseInt(centsChangeAsString, 10);
